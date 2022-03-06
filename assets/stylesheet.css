@@ -310,6 +310,7 @@ main {
     }
 }
 
+/* Response Mobile */
 @media (max-width: 350px) {
     #about-me {
         display: block;
