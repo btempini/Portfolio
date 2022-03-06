@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+:root {
+    --background: #2B3648; 
+    --nav: #858A90;
+    --h1: #B8BDC3;
+    --dark: #1D242C; 
+    --test: yellow;
+    --test2: green;
+    --test3: blue;
+}
+
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+/* NavBar Container */
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav);
+    border-bottom: 3px solid var(--h1);
+}
+
+/* Left Header */
+header h1 {
+    background-color: var(--h1);
+    box-shadow: 10px 10px 5px;
+    font-size: 3rem;
+    color: var(--background);
+}
+
+/*Nav Links*/
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin-right:2rem
+}
+
+/* Spacing between links */
+header ul li {
+    padding: 2rem;
+    list-style: none;
+}
+
+/* Link Styles */
+header ul li a {
+    color: var(--background);
+    font-size: 2rem;
+    border-bottom: 3px solid var(--h1);
+    transition: all 0.3s ease 0s;
+}
+
+header ul li a:hover {
+    color: #B8BDC3;
+}
+
+header ul li a:link {
+    text-decoration: none;
+}
+
+header ul li a:visited {
+    text-decoration: none;
+}
+
+/* Banner photo */
+.banner {
+    background-image: url(./images/banner-g85ae4ae11_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* Banner quote */
+div span {
+    float: right;
+    margin-top: 550px;
+    margin-right: 50px;
+    font-size: 40px;
+    color: var(--h1);
+}
+
+/* Body */
+main {
+    background-color: var(--dark);
+}
+
+/* About me container*/
+#about-me {
+    display: flex;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about-me h2 {
+    width: 15%;
+    height: 100%;
+    border-right: 3px solid var(--h1);
+    text-align: end;
+    font-size: 50px;
+    padding: 0 10px 0 ;
+    color: var(--h1);
+}
+
+#about-me p {
+    padding: 0 1rem 0 4rem;
+    width: 85%;
+    height:75%;
+    font-size: 20px;
+    color: var(--h1);
+}
+
+/* Projects */
+#projects {
+    display: flex;
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+#projects h2 {
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    border-right: 3px solid var(--h1);
+    text-align: end;
+    font-size: 50px;
+    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    color: var(--h1);
+}
+
+/* Project Links */
+#boxes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:85%;
+    align-items: center;
+}
+
+/* Main */
+#main-project {
+    display: flex;
+    height: 50%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-project a {
+    display: flex;
+    height: 95%;
+    width: 75%;
+}
+
+/* Smaller */
+#smaller-projects {
+    background-color: var(--dark);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#smaller-projects a {
+    margin: 23px 26px;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    height: 160x;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact h2 {
+    width: 15%;
+    height: 100%;
+    border-right: 3px solid var(--h1);
+    text-align: end;
+    font-size: 50px;
+    padding: 0 10px 0 ;
+    color: var(--h1);
+}
+
+/* Contact Info */
+#contact ul {
+    display: flex;
+    flex-direction: row;
+    margin-right:2rem
+}
+
+#contact ul li {
+    padding: 4rem;
+    list-style: none;
+    color: var(--h1);
+    font-size: 2rem;
+}
+
+/* Response */
+
+@media (max-width: 900px) {
+    header{
+        display: block;
+    }
+    header h1 {
+        /* display: block; */
+        font-size: 2rem;
+    }
+    header ul li{
+        padding: 11px;
+    }
+    header ul li a{
+        font-size: 30px;
+    }
+    div span {
+        font-size: 25px;
+    }
+    #about-me {
+        display: block;
+        height: 350px;
+        width: 100%;
+        margin-top: -100px;
+        text-align: center;
+    }
+    #about-me h2 {
+        width: 100%;
+        height: 35px;
+        border-right:none;
+        border-bottom: 1px solid var(--h1);
+        font-size: 30px;
+        text-align: center;
+    }
+    #about-me p {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+    }
+    #projects {
+        display: flex;
+        flex-direction: column;
+        height: 430px;
+        width: 100%;
+    }
+    #projects h2 {
+        width: 100%;
+        height: 35px;
+        border-right:none;
+        border-bottom: 1px solid var(--h1);
+        font-size: 30px;
+        text-align: center;
+    }
+    #projects #boxes {
+        width: 100%;
+    }
+    #main-project {
+        height:100px;
+    }
+    #main-project a {
+        justify-content: center;
+        align-items: center;
+    }
+    #boxes div a img {
+        width: 175px;
+        height: 75px;
+    }
+    #contact {
+        display: block;
+        height: 350px;
+        width: 100%;
+        text-align: center;
+    }
+    #contact h2 {
+        width: 100%;
+        height: 35px;
+        border-right:none;
+        border-bottom: 1px solid var(--h1);
+        font-size: 30px;
+        text-align: center;
+    }
+    #contact ul {
+        justify-content: center;
+    }
+    #contact ul li {
+        padding: 1rem;
+        list-style: none;
+        color: var(--h1);
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 350px) {
+    #about-me {
+        display: block;
+        height: 810px;
+        width: 100%;
+        margin-top: -100px;
+        text-align: center;
+    }
+    #projects {
+        display: flex;
+        flex-direction: column;
+        height: 575px;
+        width: 100%;
+    }
+    #contact {
+        display: block;
+        height: 245px;
+        width: 100%;
+        text-align: center;
+    }
+    #contact ul {
+        display: block;
+        flex: none;
+        margin: 0;
+        font-size: 12px;
+    }
+}

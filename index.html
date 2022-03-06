@@ -5,32 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Interactive Resume</title>
+    <link rel="stylesheet" href="./assets/stylesheet.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <h1 class="name">Bryan Tempini</h1>
+    <header>
+        <h1><pre>       Bryan Tempini  </pre></h1>
         <nav>
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Skills</li>
+            <ul class="nav-links">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <!-- <li><a href="#resume">Resume</a></li> -->
             </ul>
         </nav>
     </header>
 
-    <main class="float-left">
+    <div class="banner"><span>"The best view comes after the hardest climb!"</span></div>
+
+    <main>
+
+        <br><br><br><br><br><br>
+        
+        <section id="about-me">
+            <h2>About Me</h2>            
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis libero ipsam voluptas molestiae, 
+            voluptatem ducimus omnis illum et cum? Perspiciatis temporibus quae dolorum ut error optio, molestiae 
+            architecto? Blanditiis, sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptates 
+            quo ex ipsa hic sapiente ad odit harum quam impedit porro rerum tempore nihil non, recusandae, temporibus a
+            ccusamus fugiat aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero aspernatur, 
+            ipsum odit earum ab dignissimos exercitationem, minus aliquam ex, sint iure? Placeat sit voluptatem ipsa, 
+            sed mollitia aliquam ab!
+            </p>
+        </section>
+
+        <br><br><br>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="boxes">
+                <div id="main-project">
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/main-project-img.png" alt="Main Project">
+                    </a>
+                </div>
+                <div id="smaller-projects">
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/350x150.png" alt="Project 2">
+                    </a>
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/350x150.png" alt="Project 3">
+                    </a>
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/350x150.png" alt="Project 4">
+                    </a>
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/350x150.png" alt="Project 5">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br>
+
+        <section id="contact">
+            <h2>Contact Info</h2>
+            <ul>
+                <li>203-218-1616</li>
+                <li>mistatempini@gmail.com</li>
+                <li>Niwot, CO 80544</li>
+            </ul>
+        </section>
 
     </main>
 
-    <aside class="skills">
-
-    </aside>
-
-    <footer class="footer">
-
-    </footer>
-    
 </body>
 </html>
