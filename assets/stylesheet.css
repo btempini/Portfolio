@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 :root {
     --background: #2B3648; 
@@ -32,6 +33,7 @@ header {
 /* Left Header */
 header h1 {
     background-color: var(--h1);
+    border-radius: 2px;
     box-shadow: 10px 10px 5px;
     font-size: 3rem;
     color: var(--background);
@@ -86,6 +88,7 @@ div span {
     margin-right: 50px;
     font-size: 40px;
     color: var(--h1);
+    font-family: 'Dancing Script', cursive;
 }
 
 /* Body */
