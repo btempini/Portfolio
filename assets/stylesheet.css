@@ -186,6 +186,16 @@ main {
     margin: 23px 26px;
 }
 
+#weather, #calendar, #password {
+    height: 150px;
+    width: 350px;
+}
+
+#coffee {
+    height: 380px;
+    width: 760px;
+}
+
 /* Contact */
 #contact {
     display: flex;
