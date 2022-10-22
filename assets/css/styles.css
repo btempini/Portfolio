@@ -1,0 +1,89 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Playfair+Display&display=swap');
+
+
+/* Universal Selectors */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav Bar */
+nav {
+  background-color: #6B9080;
+  border-bottom: 3px solid #CCE3DE;
+}
+
+#navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+#nameBanner {
+  background-color: #A4C3B2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 400px;
+  border-bottom: 3px solid #CCE3DE;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 27%);
+}
+
+#name {
+  font-size: 50px;
+  font-family: 'Comforter Brush', cursive;
+  margin-top: 12px;
+  color: #F6FFF8;
+  letter-spacing: 8px;
+}
+
+li {
+  display: inline;
+  margin: 0px 50px 0px 0px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+/* Hero Section */
+#hero {
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  background-image: url(../images/pexels-evie-shaffer-2748757.jpg);
+  background-size: cover;
+  background-position-y: -925px;
+  border-bottom: 3px solid #CCE3DE;
+  font-family: 'Comforter Brush', cursive;
+}
+
+#hero h2 {
+  font-size: 60px;
+  position: absolute;
+}
+
+#design {
+  left: 380px;
+  top: 130px;
+  transform: rotate(-11deg);
+}
+
+#development {
+  left: 490px;
+  top: 230px;
+}
+
+#and {
+  position: absolute;
+  left: 520px;
+  top: 170px;
+  height: 70px;
+}
