@@ -10,8 +10,24 @@
 }
 
 /* Nav Bar */
+#name {
+  margin-top: 22px;
+  font-size: 69px;
+  z-index: 2;
+  font-family: 'Playfair Display';
+  margin-left: 20px;
+  letter-spacing: -8px;
+}
+
+#underline {
+  top: 80px;
+  position: absolute;
+  z-index: 1;
+}
+
 nav {
-  background-color: #6B9080;
+  position: relative;
+  background-color: #F4F6F4;
   border-bottom: 3px solid #CCE3DE;
 }
 
@@ -19,38 +35,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-}
-
-#nameBanner {
-  background-color: #A4C3B2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 400px;
-  border-bottom: 3px solid #CCE3DE;
-  box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 27%);
-}
-
-#name {
-  font-size: 50px;
-  font-family: 'Comforter Brush', cursive;
-  margin-top: 12px;
-  color: #F6FFF8;
-  letter-spacing: 8px;
+  height: 80px;
 }
 
 li {
   display: inline;
-  margin: 0px 50px 0px 0px;
+  margin-right: 50px;
 }
 
 ul li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* Hero Section */
@@ -60,7 +57,7 @@ ul li a {
   position: relative;
   background-image: url(../images/pexels-evie-shaffer-2748757.jpg);
   background-size: cover;
-  background-position-y: -925px;
+  background-position-y: -655px;
   border-bottom: 3px solid #CCE3DE;
   font-family: 'Comforter Brush', cursive;
 }
