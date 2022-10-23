@@ -87,6 +87,14 @@ ul li a {
   height: 70px;
 }
 
+/* Icons */
+#icons {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 40px auto 0 auto;
+}
+
 /* Styling for containers */
 .container {
   display: flex;
