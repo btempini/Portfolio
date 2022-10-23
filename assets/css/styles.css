@@ -90,7 +90,7 @@ ul li a {
 /* Styling for containers */
 .container {
   display: flex;
-
+  position: relative;
   width: 1160px;
   margin:0 auto;
   padding: 100px 0;
@@ -100,17 +100,44 @@ ul li a {
 #about {
   height: auto;
 }
+#about div{
+  width: 80%;
+}
 
 #about h3 {
+  z-index: 1;
   width: 20%;
-  background-color: red;
   font-family: 'Comforter Brush', cursive;
   font-size: 50px;
 }
 
+#aboutLine {
+  position: absolute;
+  top: 127px;
+  height: 26px;
+  left: -414px;
+}
+
 #about p {
-  width:80%;
-  background-color: blue;
   font-family: 'Playfair Display';
   line-height: 1.5;
+}
+
+/* Avatar */
+#about div img {
+  margin: 11px;
+  float: left;
+  height: 50px;
+}
+
+/* Work Section */
+#work {
+  height: auto;
+}
+
+#work h3 {
+  z-index: 1;
+  width: 20%;
+  font-family: 'Comforter Brush', cursive;
+  font-size: 50px;
 }
