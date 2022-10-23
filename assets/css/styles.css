@@ -11,7 +11,7 @@
 
 /* Nav Bar */
 #name {
-  margin-top: 22px;
+  margin-top: 24px;
   font-size: 69px;
   z-index: 2;
   font-family: 'Playfair Display';
@@ -19,8 +19,9 @@
   letter-spacing: -8px;
 }
 
-#underline {
+#underlineName {
   top: 80px;
+  height: 19px;
   position: absolute;
   z-index: 1;
 }
@@ -28,7 +29,7 @@
 nav {
   position: relative;
   background-color: #F4F6F4;
-  border-bottom: 3px solid #CCE3DE;
+  border-bottom: 3px solid rgb(136, 138, 75);
 }
 
 #navContainer {
@@ -55,10 +56,10 @@ ul li a {
   width: 100vw;
   height: 500px;
   position: relative;
-  background-image: url(../images/pexels-evie-shaffer-2748757.jpg);
+  background-image: url(../images/fern.jpg);
   background-size: cover;
   background-position-y: -655px;
-  border-bottom: 3px solid #CCE3DE;
+  border-bottom: 3px solid rgb(136, 138, 75);
   font-family: 'Comforter Brush', cursive;
 }
 
@@ -67,20 +68,49 @@ ul li a {
   position: absolute;
 }
 
+/* Web Design & Development in Hero Section */
 #design {
   left: 380px;
-  top: 130px;
+  top: 230px;
   transform: rotate(-11deg);
 }
 
 #development {
   left: 490px;
-  top: 230px;
+  top: 330px;
 }
 
 #and {
   position: absolute;
   left: 520px;
-  top: 170px;
+  top: 270px;
   height: 70px;
+}
+
+/* Styling for containers */
+.container {
+  display: flex;
+
+  width: 1160px;
+  margin:0 auto;
+  padding: 100px 0;
+}
+
+/* About Section */
+#about {
+  height: auto;
+}
+
+#about h3 {
+  width: 20%;
+  background-color: red;
+  font-family: 'Comforter Brush', cursive;
+  font-size: 50px;
+}
+
+#about p {
+  width:80%;
+  background-color: blue;
+  font-family: 'Playfair Display';
+  line-height: 1.5;
 }
