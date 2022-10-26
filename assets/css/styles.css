@@ -247,6 +247,10 @@ ul li a {
   left: -414px;
 }
 
+#contactInfo h5 {
+  font-family: 'Playfair Display';
+  margin: 20px 0;
+}
 
 /* Laptop Breakpoint */
 @media screen and (max-width: 1024px) {
