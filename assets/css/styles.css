@@ -90,8 +90,8 @@ ul li a {
 /* Icons */
 #icons {
   display: flex;
-  justify-content: space-between;
-  width: 500px;
+  justify-content: space-around;
+  max-width: 500px;
   margin: 40px auto 0 auto;
 }
 
@@ -275,12 +275,34 @@ ul li a {
 
 /* Tablet Breakpoint */
 @media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  #about div {
+    margin-top: 20px;
+    margin-left: 62px;
+  }
+
   .smallProject {
     min-width: 100%;
   }
 
+  .smallTitle {
+    width: 50%;
+    text-align: center;
+  }
+
   #projectThree, #projectFive {
     margin: 40px 0 10px 0px;
+  }
+
+  #work h3 {
+    width: auto;
+  }
+
+  #contact h3 {
+    width: auto;
   }
 
   #projectOne {
@@ -288,12 +310,14 @@ ul li a {
   }
 
   #projectOneTitle {
-    top: 135px
+    top: 135px;
+    width: 50%
   }
 
   #examplesContainer {
-    width: 50%; 
-    margin-left: 56px;
+    width: 80%; 
+    margin-left: 50px;
+    margin-top: 35px;
   }
 
 }
