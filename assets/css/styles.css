@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Playfair+Display&family=Poppins&display=swap');
 
 
 /* Universal Selectors */
@@ -39,16 +39,34 @@ nav {
   height: 80px;
 }
 
-li {
-  display: inline;
+ul {
+  display: flex;
+}
+
+
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
   margin-right: 50px;
+}
+
+.linkLine {
+  height: 3px;
+  width: 105%;
+  background-color: rgb(136, 138, 75);
+  margin-top: 4px;
+  display: none;
 }
 
 ul li a {
   text-decoration: none;
   color: black;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
+}
+
+.linkWrapper:hover .linkLine {
+  display: block;
 }
 
 /* Hero Section */
@@ -128,15 +146,15 @@ ul li a {
 }
 
 #about p {
-  font-family: 'Playfair Display';
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
 }
 
 /* Avatar */
 #about div img {
-  margin: 11px;
+  margin: 10px;
   float: left;
-  height: 50px;
+  height: 75px;
 }
 
 /* Work Section */
@@ -238,6 +256,7 @@ ul li a {
   width: 30%;
   font-family: 'Comforter Brush', cursive;
   font-size: 50px;
+  margin-left: -30px;
 }
 
 #contactLine {
