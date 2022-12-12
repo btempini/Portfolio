@@ -191,12 +191,10 @@ ul li a {
   background-repeat: no-repeat;
 }
 
-#projectOneLink {
+.projectLink {
+  position: absolute;
   width: 100%;
-}
-
-#projectOneLink:hover {
-  opacity: 70%;
+  height: 100%;
 }
 
 #projectOneTitle {
@@ -212,6 +210,9 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border-right: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; */
 }
 
 .smallProject {
@@ -224,6 +225,10 @@ ul li a {
 
 #projectTwo {
   margin: 40px 10px 10px 0;
+  background-image: url(../images/Coding\ Quiz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -112px;
 }
 
 #projectThree {
