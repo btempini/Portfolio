@@ -233,6 +233,9 @@ ul li a {
 
 #projectThree {
   margin: 40px 0 10px 10px;
+  background-image: url(../images/dreamstream.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #projectFour {
