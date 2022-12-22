@@ -179,6 +179,25 @@ ul li a {
   height: auto;
 }
 
+.workDescription {
+  font-family: "Poppins", sans-serif;
+  line-height: 2;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+.workDescriptionTitle {
+  position: relative;
+  margin-bottom: -12px;
+  margin-top: 17px;
+  text-decoration: underline;
+  font-size: 21px;
+  top: -4px;
+  left: -26px;
+  color: rgb(136, 138, 167);
+}
+
 #work h3 {
   z-index: 1;
   width: 20%;
@@ -194,18 +213,25 @@ ul li a {
 }
 
 #examplesContainer {
-  display: flex;
   width: 80%;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
-#projectOne {
+#project {
   border: 3px solid rgb(82, 129, 116);
   width: 100%;
   height: 400px;
   position: relative;
   background-image: url(../images/StandardServices.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projectTwo {
+  border: 3px solid rgb(82, 129, 116);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: url(../images/advancedtree.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -234,7 +260,7 @@ ul li a {
   border-bottom: 1px solid white; */
 }
 
-.smallProject {
+/* .smallProject {
   border: 3px solid rgb(82, 129, 116);
   margin: 20px 10px;
   height: 200px;
@@ -280,7 +306,7 @@ ul li a {
 .smallTitle h4 {
   color: white;
   font-family: "Playfair Display", serif;
-}
+} */
 
 /* Contact Section */
 #contact {
@@ -320,7 +346,7 @@ ul li a {
   z-index: 2;
   height: 50px;
   margin-top: 23px;
-  margin-right: 29px;
+  margin-right: 64px;
 }
 
 /* Footer Splash Paint */
@@ -329,7 +355,7 @@ ul li a {
   margin-right: -100px;
   position: absolute;
   height: 270px;
-  margin-top: -370px;
+  margin-top: -530px;
 }
 
 footer {
@@ -338,7 +364,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 40px;
-  margin-top: 80px;
+  margin-top: 150px;
   color: white;
 }
 
