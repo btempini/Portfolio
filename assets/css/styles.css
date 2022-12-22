@@ -107,8 +107,12 @@ ul li a {
 #icons {
   display: flex;
   justify-content: space-around;
-  max-width: 500px;
-  margin: 40px auto 0 auto;
+  max-width: 700px;
+  margin: 50px auto 0 auto;
+}
+
+.languageIcon {
+  height: 50px;
 }
 
 /* Styling for containers */
@@ -343,12 +347,6 @@ ul li a {
     align-items: flex-start;
   }
 
-  #linkContainer {
-    z-index: 2;
-    margin-top: 17px;
-    margin-left: 25px;
-  }
-
   #name {
     font-size: 51px;
     letter-spacing: -5px;
@@ -357,6 +355,13 @@ ul li a {
 
   #underlineName {
     width: 70%;
+  }
+
+  #linkContainer {
+    z-index: 2;
+    margin-top: 27px;
+    margin-left: 25px;
+    height: 20px;
   }
 
   #hero {
