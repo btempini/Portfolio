@@ -182,14 +182,16 @@ ul li a {
 
 .workDescription {
   font-family: "Poppins", sans-serif;
+  width: 90%;
   line-height: 2;
-  margin-bottom: 90px;
+  margin: 0 auto 90px auto;
   padding: 10px;
   background-color: rgb(136, 138, 170, 20%);
   padding: 40px;
   border-left: 3px solid rgb(82, 129, 116);
   border-right: 3px solid rgb(82, 129, 116);
   border-bottom: 3px solid rgb(82, 129, 116);
+  border-radius: 0 0 5px 5px;
 }
 
 .workDescriptionTitle {
