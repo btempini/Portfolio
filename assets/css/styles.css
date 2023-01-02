@@ -172,8 +172,8 @@ ul li a {
 #about div img {
   margin: 10px;
   float: left;
-  height: 75px;
-  border-radius: 50px;
+  height: 105px;
+  border-radius: 70px;
 }
 
 /* Work Section */
@@ -263,7 +263,7 @@ ul li a {
 
 .projectTitle {
   position: absolute;
-  width: 100%;
+  width: 101%;
   height: 60px;
   background-color: rgb(82, 129, 116);
   top: 335px;
@@ -449,7 +449,7 @@ footer {
 
   #projectThree,
   #projectFive {
-    margin: 40px 0 10px 0px;
+    margin: 40px 0 0px 0px;
   }
 
   #work h3 {
@@ -495,6 +495,78 @@ footer {
 
   .socialLogo {
     height: 74px;
+    margin-top: 23px;
+    margin-right: 42px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .languageIcon {
+    height: 32px;
+  }
+
+  #icons {
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  #about h3 {
+    margin-left: 107px;
+    margin-top: 4px;
+    font-size: 38px;
+  }
+
+  #about div {
+    width: 105%;
+    margin-top: 38px;
+    margin-left: 0px;
+  }
+
+  #work h3 {
+    margin-top: 14%;
+    margin-left: 31%;
+  }
+
+  #work {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .underline {
+    height: 30px;
+  }
+
+  .splash {
+    height: 230px;
+    top: 182%;
+    left: 8%;
+  }
+
+  .earth {
+    top: -15%;
+    left: -2%;
+  }
+
+  #contact {
+    margin-top: 38px;
+  }
+
+  ul li a {
+    font-size: 13px;
+  }
+
+  #mailLast {
+    margin-right: 0px;
+  }
+
+  .socialLogo {
+    height: 64px;
     margin-top: 23px;
     margin-right: 42px;
   }
