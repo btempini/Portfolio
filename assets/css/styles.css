@@ -170,10 +170,10 @@ ul li a {
 
 /* Avatar */
 #about div img {
-  margin: 10px;
+  margin-right: 10px;
   float: left;
   height: 105px;
-  border-radius: 70px;
+  border-radius: 100%;
 }
 
 /* Work Section */
@@ -250,7 +250,7 @@ ul li a {
   width: 100%;
   height: 400px;
   position: relative;
-  background-image: url(../images/dreamstream.png);
+  background-image: url(../images/congressHill.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -258,9 +258,9 @@ ul li a {
 #projectFour {
   border: 3px solid rgb(82, 129, 116);
   width: 100%;
-  height: 400px;
+  height: 500px;
   position: relative;
-  background-image: url(../images/devlog.png);
+  background-image: url(../images/thePaddock.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -269,6 +269,8 @@ ul li a {
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: 10;
+  cursor: pointer;
 }
 
 .projectTitle {
@@ -604,6 +606,10 @@ footer {
 
   #examplesContainer {
     margin: 50px auto;
+  }
+
+  .projectTitle {
+    width: 101%;
   }
 
   .container {
